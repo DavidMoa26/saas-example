@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+.main-container {
+  margin: 0 auto;
+  min-height: 100vh;
+  width: 100%;
+  border: 10px solid;
+  border-width: 40px; 
+  border-image: linear-gradient(45deg, #AFFFFF, #74DBEF , #5E88FC , #264E86) 1;
+  padding: 1rem 0; 
+  box-sizing: border-box; 
+}
+
+.grid-container {
+  width: fit-content; /* Adjust the width as needed */
+  margin: auto; /* Center the grid */
+}
+
+.grid-item {
+  padding: 20px; /* Adjust padding for button size */
+  text-align: center; /* Center text inside buttons */
+  background-color: #f0f0f0; /* Button background color */
+  border: 1px solid #ddd; /* Button border */
+  cursor: pointer; /* Cursor pointer on hover */
+  border-radius: 50px;
+}
